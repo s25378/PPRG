@@ -48,7 +48,7 @@ int main()
     cout << endl;
 
     for (int i = 1; i <= a; i++) {
-        for (int j = 1; j <= a-(a-i); j++) {
+        for (int j = 1; j <= a - (a - i); j++) {
             cout << "*";
         }
         cout << endl;
@@ -56,13 +56,17 @@ int main()
 
     cout << endl;
 
- //   for (int i = 1; i <= a; i++) {
- //       for (int j = 1; j <= a - (a - i); j++) {
- //           if 
- //           cout << "*";
- //       }
- //       cout << endl;
- //   }
+    for (int i = 1; i <= a; i++) {
+        for (int j = 1; j <= a ; j++) {
+            if (j < i) {
+                cout << ' ';
+            }
+            else {
+                cout << "*";
+            }
+        }
+        cout << endl;
+    }
 
     return 0;
 }

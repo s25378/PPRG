@@ -22,7 +22,7 @@ int main()
         cout << "k jest najwieksza";
     }
     else {
-        cout "nie ma jednej najwiekszej liczby";
+        cout << "nie ma jednej najwiekszej liczby";
     }
     
     return 0;
